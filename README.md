@@ -49,6 +49,7 @@ ens160: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 fe80::20c:29ff:fe5d:2789  prefixlen 64  scopeid 0x20<link>
 
 To EVE NG:
+
 ens192: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.10.2  netmask 255.255.255.0  broadcast 192.168.10.255
         
