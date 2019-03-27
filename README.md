@@ -88,6 +88,7 @@ adisc@ubuntu-ipspace:/etc/ansible$ ansible all -i ./hosts -m raw -a "show run |i
 SSH password:
 
 
+
 192.168.10.4 | CHANGED | rc=0 >>
 hostname access-switch-02
 Shared connection to 192.168.10.4 closed.
