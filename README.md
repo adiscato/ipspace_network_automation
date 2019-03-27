@@ -72,13 +72,17 @@ ansible 2.7.9
 
 Verification requested in the task description:
 
+
 - SSH from your Ansible host to all network devices using usernames/passwords or SSH keys
+
 
 adisc@ubuntu-ipspace:/etc/ansible$ ssh adisc@192.168.10.4
 Password:
 access-switch-02#
 
+
 - Execute commands on your network devices with Ansible raw module.
+
 
 adisc@ubuntu-ipspace:/etc/ansible$ ansible all -i ./hosts -m raw -a "show run |i hostname" -u adisc -k
 SSH password:
