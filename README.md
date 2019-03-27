@@ -78,6 +78,7 @@ Verification requested in the task description:
 
 adisc@ubuntu-ipspace:/etc/ansible$ ssh adisc@192.168.10.4
 Password:
+
 access-switch-02#
 
 
@@ -91,6 +92,7 @@ SSH password:
 
 192.168.10.4 | CHANGED | rc=0 >>
 hostname access-switch-02
+
 Shared connection to 192.168.10.4 closed.
 
 -----------------------------------------------------------------------------------
